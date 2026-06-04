@@ -2,7 +2,7 @@ CodeChef VIT Chennai - Event Platform
 
 Hey there! This is my frontend application submission for the CodeChef VITC Projects recruitment screening. I built a responsive event management platform where users can learn about the club, browse upcoming events, and register for them. 
 
-Live Demo: 
+Live Demo: https://codechef-vitc-platform.vercel.app/
 
 What I built into this project:
 - A clean, modern UI using Tailwind CSS
