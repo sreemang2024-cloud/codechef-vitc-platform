@@ -21,24 +21,24 @@ The Tech Stack:
 
 Folder Structure:
 src/
-├── app/                      (Next.js App Router)
-│   ├── events/[id]/          (Dynamic routing for events)
-│   │   ├── loading.tsx       (Next.js Suspense skeleton UI)
-│   │   └── page.tsx          (Individual event details page)
-│   ├── globals.css           (Tailwind v4 & global styles)
-│   ├── layout.tsx            (Root layout with ThemeProvider setup)
-│   └── page.tsx              (Main landing page)
-├── components/               (Reusable UI Components)
-│   ├── Footer.tsx            (Footer with social links)
-│   ├── Navbar.tsx            (Responsive navigation & theme toggle)
-│   ├── RegisterModal.tsx     (Client-side form with validation)
-│   └── ThemeProvider.tsx     (next-themes context provider)
-├── sections/                 (Landing Page Sections)
-│   ├── ClubInfo.tsx          (CodeChef VITC details & perks)
-│   ├── Hero.tsx              (Animated landing section)
-│   └── UpcomingEvents.tsx    (Event card grid)
-└── data/                     (Mock Database)
-    └── events.ts             (Static event data array)
+├── app/                      # Next.js App Router
+│   ├── events/[id]/          # Dynamic routing for events
+│   │   ├── loading.tsx       # Next.js Suspense skeleton UI
+│   │   └── page.tsx          # Individual event details page
+│   ├── globals.css           # Tailwind v4 & global styles
+│   ├── layout.tsx            # Root layout with ThemeProvider setup
+│   └── page.tsx              # Main landing page
+├── components/               # Reusable UI Components
+│   ├── Footer.tsx            # Footer with social links
+│   ├── Navbar.tsx            # Responsive navigation & theme toggle
+│   ├── RegisterModal.tsx     # Client-side form with validation
+│   └── ThemeProvider.tsx     # next-themes context provider
+├── sections/                 # Landing Page Sections
+│   ├── ClubInfo.tsx          # CodeChef VITC details & perks
+│   ├── Hero.tsx              # Animated landing section
+│   └── UpcomingEvents.tsx    # Event card grid
+└── data/                     # Mock Database
+    └── events.ts             # Static event data array
 
 How to run this locally:
 1. Clone this repository to your machine
