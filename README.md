@@ -20,6 +20,7 @@ The Tech Stack:
 - Lucide React
 
 Folder Structure:
+```text
 src/
 ├── app/                      # Next.js App Router
 │   ├── events/[id]/          # Dynamic routing for events
@@ -39,6 +40,7 @@ src/
 │   └── UpcomingEvents.tsx    # Event card grid
 └── data/                     # Mock Database
     └── events.ts             # Static event data array
+```
 
 How to run this locally:
 1. Clone this repository to your machine
