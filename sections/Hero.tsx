@@ -17,7 +17,7 @@ export default function Hero() {
             className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 dark:bg-blue-500/10 text-blue-600 dark:text-blue-400 text-sm font-medium mb-8"
           >
             <span className="flex h-2 w-2 rounded-full bg-blue-600 dark:bg-blue-400"></span>
-            Recruitment 2024 Now Open
+            Recruitment 2026 Now Open
           </motion.div>
           
           <motion.h1 
