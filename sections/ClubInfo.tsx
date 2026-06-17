@@ -9,7 +9,7 @@ export default function ClubInfo() {
             More than just a coding club.
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl leading-relaxed">
-            CodeChef VIT Chennai is a hub for competitive programmers and developers. We bridge the gap between academic learning and industry requirements through collaborative development.
+            Android VIT Chennai is a hub for Tech developers on campus. We bridge the gap between academic learning and industry requirements through collaborative development.
           </p>
         </div>
 

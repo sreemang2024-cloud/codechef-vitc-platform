@@ -8,7 +8,7 @@ import ThemeProvider from "@/components/ThemeProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "CodeChef VIT Chennai | Event Platform",
+  title: "Android VIT Chennai | Event Platform",
   description: "Join and manage club events seamlessly.",
 };
 

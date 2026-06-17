@@ -18,7 +18,7 @@ export default function Navbar() {
         
         {/* Logo */}
         <Link href="/" className="font-bold text-2xl tracking-tighter text-gray-900 dark:text-white">
-          CodeChef<span className="text-blue-600"> VITC</span>
+          Android<span className="text-blue-600"> VITC</span>
         </Link>
 
         {/* Desktop Navigation */}

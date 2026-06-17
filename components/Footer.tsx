@@ -8,13 +8,13 @@ export default function Footer() {
           
           <div className="md:col-span-2">
             <Link href="/" className="font-bold text-2xl tracking-tighter text-gray-900 dark:text-white mb-4 inline-block">
-              CodeChef<span className="text-blue-600 dark:text-blue-500"> VITC</span>
+              Android<span className="text-blue-600 dark:text-blue-500"> VITC</span>
             </Link>
             <p className="text-gray-500 dark:text-gray-400 max-w-sm mb-6">
               The premier community for student developers, designers, and tech enthusiasts. Build the future with us.
             </p>
-            <a href="mailto:hello@codechefvitc.com" className="text-blue-600 dark:text-blue-400 font-medium hover:underline">
-              hello@codechefvitc.com
+            <a href="mailto:hello@Androidvitc.com" className="text-blue-600 dark:text-blue-400 font-medium hover:underline">
+              hello@androidvitc.com
             </a>
           </div>
 
@@ -32,7 +32,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <a 
-                  href="https://www.instagram.com/codechef.vitc/" 
+                  href="" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
@@ -42,7 +42,7 @@ export default function Footer() {
               </li>
               <li>
                 <a 
-                  href="https://www.linkedin.com/in/codechef-vitcc-6496b1280/" 
+                  href="" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
@@ -57,7 +57,7 @@ export default function Footer() {
         
         <div className="pt-8 border-t border-gray-100 dark:border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-400 dark:text-gray-500">
-            © {new Date().getFullYear()} CodeChef VIT Chennai. All rights reserved.
+            © {new Date().getFullYear()} Android VIT Chennai. All rights reserved.
           </p>
           <div className="flex gap-4 text-sm text-gray-400 dark:text-gray-500">
             <a href="#" className="hover:text-gray-600 dark:hover:text-gray-300">Privacy Policy</a>

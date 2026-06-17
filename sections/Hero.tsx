@@ -9,8 +9,8 @@ export default function Hero() {
     <section className="relative pt-16 pb-20 lg:pt-24 lg:pb-32 overflow-hidden">
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-3xl">
-          
-          <motion.div 
+
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
@@ -19,8 +19,8 @@ export default function Hero() {
             <span className="flex h-2 w-2 rounded-full bg-blue-600 dark:bg-blue-400"></span>
             Recruitment 2026 Now Open
           </motion.div>
-          
-          <motion.h1 
+
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
@@ -28,8 +28,8 @@ export default function Hero() {
           >
             Connect, Create, and <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-500 dark:from-blue-400 dark:to-indigo-400">Innovate</span>
           </motion.h1>
-          
-          <motion.p 
+
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
@@ -37,34 +37,34 @@ export default function Hero() {
           >
             Join the premier community of student developers, designers, and creators. Elevate your skills through hands-on projects and exclusive workshops.
           </motion.p>
-          
-          <motion.div 
+
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3, ease: "easeOut" }}
             className="flex flex-col sm:flex-row gap-4"
           >
-            <Link 
-              href="/#events" 
+            <Link
+              href="/#events"
               className="inline-flex justify-center items-center gap-2 px-8 py-4 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-full font-medium hover:bg-gray-800 dark:hover:bg-gray-100 transition-all hover:scale-105"
             >
               <Calendar className="w-5 h-5" />
               Explore Events
             </Link>
-            <Link 
-              href="/#about" 
+            <Link
+              href="/#about"
               className="inline-flex justify-center items-center gap-2 px-8 py-4 bg-white dark:bg-gray-900 text-gray-900 dark:text-white border border-gray-200 dark:border-gray-700 rounded-full font-medium hover:bg-gray-50 dark:hover:bg-gray-800 transition-all hover:scale-105"
             >
-              Discover CodeChef
+              Discover Android
               <ArrowRight className="w-5 h-5" />
             </Link>
           </motion.div>
 
         </div>
       </div>
-      
+
       {/* Background Gradient Animation */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 0.5, scale: 1 }}
         transition={{ duration: 1.5, ease: "easeOut" }}

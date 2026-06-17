@@ -24,7 +24,7 @@ export const events: Event[] = [
   },
   {
     id: "evt-002",
-    title: "CodeChef VITC Hackathon 2026",
+    title: "Android VITC Hackathon 2026",
     date: "2026-06-22",
     time: "09:00 - 09:00 (48h)",
     location: "MG Auditorium",
